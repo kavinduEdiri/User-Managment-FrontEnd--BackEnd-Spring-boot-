@@ -14,6 +14,7 @@ function UserForm({ addUser, updateUser, isEdit, data }) {
       setName("");
     }
   }, [data, isEdit]);
+  
 
   const handleSubmit = () => {
     if (isEdit) {
